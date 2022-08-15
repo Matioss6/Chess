@@ -18,6 +18,7 @@ import java.util.*;
 /*
   Not the same - yet similar ;)
    */
+
 public class ChessBoard implements Serializable {
 
     static public HashMap<ArrayList<Character>, Figure> chessBoardMap = new HashMap<>();     
