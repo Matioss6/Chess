@@ -128,6 +128,7 @@ public class Chess {
 
             }
 
+
         }
         if (mate) {
             System.out.println("Check");
