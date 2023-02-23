@@ -23,6 +23,7 @@ public class Queen extends Figure {
         char y = position.get(0);
         char x = position.get(1);
 
+
         for (char i = (char) (y + 1); i <= '8'; i++) {
 
             ArrayList<Character> posTemp = new ArrayList<>();

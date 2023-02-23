@@ -6,8 +6,8 @@ import java.util.HashMap;
 
 public abstract class Figure implements Serializable {
 
-    protected ArrayList<Character> position = new ArrayList<>();
-    protected  ArrayList<ArrayList<Character>> possibilities = new ArrayList<>();
+    ArrayList<Character> position = new ArrayList<>();
+    ArrayList<ArrayList<Character>> possibilities = new ArrayList<>();
     public final boolean white;
 
     Figure(boolean whiteIsTrue, char a, char b) {

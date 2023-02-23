@@ -13,6 +13,7 @@ public class King extends Figure{
         super(white, x, y);
     }
 
+
     public void move(ArrayList<Character> list){
 
         ChessBoard.move(list, this);
